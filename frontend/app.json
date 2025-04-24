@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "GuestLogin",
+    "slug": "GuestLogin",
+    "newArchEnabled": true,
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/grievanc.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/grievanc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "width": "20",
+      "height": "20"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/grievanc.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.steephanraj02.GuestLogin"
+    },
+    "web": {
+      "favicon": "./assets/grievanc.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8f48c66b-0753-420a-8930-5c5a608d0e36"
+      }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}

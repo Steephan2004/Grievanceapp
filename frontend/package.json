@@ -1,0 +1,38 @@
+{
+  "name": "guestlogin",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/stack": "^6.0.0",
+    "axios": "^1.7.7",
+    "expo": "^52.0.46",
+    "expo-localization": "~16.0.1",
+    "expo-status-bar": "~2.0.1",
+    "i18next": "^25.0.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-i18next": "^15.0.1",
+    "react-native": "0.76.9",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-localize": "^3.4.1",
+    "react-native-modal": "^13.0.1",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^3.0.0",
+    "react-native-screens": "^3.0.0",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@react-native-community/cli": "^18.0.0"
+  },
+  "private": true
+}
