@@ -1,5 +1,8 @@
+Django>=3.0,<5.0
+djangorestframework==3.14.0
 django-cors-headers==4.3.1
 django-import-export==4.1.1
-djangorestframework==3.14.0
-pip install twilio
-pip install django-apscheduler
+twilio
+django-apscheduler
+vonage
+beautifulsoup4
